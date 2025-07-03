@@ -1,0 +1,4 @@
+venv
+.gitignore
+escola.db
+**/__pycache__ /

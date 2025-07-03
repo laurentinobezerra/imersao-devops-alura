@@ -1,0 +1,9 @@
+services:
+  api:
+    container_name: primeiro-container-python-alura
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped
